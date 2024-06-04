@@ -3,7 +3,7 @@
   #해당 추출 파일은 CSV파일로 반출함
 
 
-##★(1)  공단데이터 SAS-sql 추출 코드예시 (해당코드를 매크로화해서 진행)
+##★(1)  공단데이터 SAS-sql 추출 코드예시 (하기 형태를 매크로화해서 진행)
 proc sql;
 create table CA_temp as
 select T20.indi_dscm_no, CALIST.ca, 변수들
